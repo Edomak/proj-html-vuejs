@@ -8,7 +8,7 @@
             <div class="menu">
                 <ul class="right_nav">
                     <li 
-                    v-for="link, index in headerLinks" :key="index" :class="(link == activeLink)? 'active' : ''" @click="activePage(index)"><a href="#">{{ link }}</a></li>
+                    v-for="link, index in headerLinks" :key="index" :class="(link == activeLink)? 'active' : ''" @click.prevent="activePage(index)"><a href="#">{{ link }}</a></li>
                     <li> <a href="#"><i :class="icon"></i></a></li>
                 </ul>
             </div>
@@ -215,7 +215,7 @@ export default {
 
     .right_button {
         position: absolute;
-        right: 0;
+        right: 5px;
 
         a {
             display: flex;
