@@ -1,16 +1,20 @@
 <template>
   <div id="app">
-    <Header />
+    <Header :headerLinks="headerLinks" :icon="icon" />
+    <Footer />
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
+
 
 export default {
   name: 'App',
   components: {
-    Header
+    Header,
+    Footer
   },
   data: function () {
     return {
@@ -24,6 +28,7 @@ export default {
         "Contact Me"
       ],
       icon: "fas fa-shopping-cart",
+      
     }
   }
 }

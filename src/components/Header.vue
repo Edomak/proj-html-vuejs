@@ -7,14 +7,9 @@
             </div>
             <div class="menu">
                 <ul class="right_nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
+                    <li 
+                    v-for="link, index in headerLinks" :key="index" :class="(link == activeLink)? 'active' : ''" @click="activePage(index)"><a href="#">{{ link }}</a></li>
+                    <li> <a href="#"><i :class="icon"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -53,7 +48,21 @@
 
 <script>
 export default {
-    name: "Header"
+    name: "Header",
+    props: {
+        headerLinks: Array,
+        icon: String
+    },
+    data: function () {
+        return {
+            activeLink: "Home"
+        }
+    },
+    methods: {
+        activePage: function(index) {
+            this.activeLink = this.headerLinks[index];
+        }
+    }
 }
 </script>
 
@@ -70,7 +79,7 @@ export default {
         border-top: 3px solid #f3b329;
         color: #f3b329;
     }
-    .active a {
+    a.active {
         color: #f3b329;
     }
 
@@ -99,6 +108,10 @@ export default {
             a {
                 text-decoration: none;
                 color: white;
+
+                &.active {
+                    color: #f3b329;
+                }
             }
         }
     }
