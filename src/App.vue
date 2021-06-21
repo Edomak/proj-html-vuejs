@@ -1,28 +1,55 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Header />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Header
+  },
+  data: function () {
+    return {
+      headerLinks: [
+        "Home",
+        "About Me",
+        "Testimonials",
+        "My Blog",
+        "Meetups",
+        "Shop",
+        "Contact Me"
+      ],
+      icon: "fas fa-shopping-cart",
+    }
   }
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+// Common
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+ // General
+
 </style>
