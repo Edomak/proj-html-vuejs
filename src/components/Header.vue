@@ -3,7 +3,7 @@
     <div class="container layover_general">
         <div class="header_top">
             <div class="logo">
-                <img src="../assets/images/author-logo-round-small.png" alt="">
+                <img src="../assets/images/author-logo-round-small.png" alt="Logo Author">
             </div>
             <div class="menu">
                 <ul class="right_nav">
@@ -25,10 +25,10 @@
     </div>
     <div class="book_release">
         <div class="book_img">
-            <img src="../assets/images/book-widget.png" alt="">
+            <img src="../assets/images/book-widget.png" alt="book widget">
         </div>
         <div class="book_text">
-            <h2 class="font-title">Latest Book Release</h2>
+            <h2>Latest Book Release</h2>
                 <h4>D. VAUGHN AUTOBIOGRAPHY</h4>
                 <p>Vestibulum tristique turpis in ipsum egestas lobortis. Duis maximus bibendum volutpat. Lorem ipsum dolor sit amet.</p>
         </div>
@@ -113,6 +113,9 @@ export default {
                 &.active {
                     color: #f3b329;
                 }
+                &:hover {
+                    color: #f3b329;
+                }
             }
         }
     }
@@ -157,6 +160,11 @@ export default {
             line-height: 30px;
             font-size: 12px;
             border-radius: 3px;
+
+            &:hover {
+                background-color: white;
+                color: black;
+            }
         }
     }
 
@@ -208,6 +216,10 @@ export default {
             color: black;
             font-size: 10px;
             border-radius: 5px;
+
+            &:hover {
+                border: 2px solid #3da698;
+            }
         }
 
         i {
@@ -234,16 +246,29 @@ export default {
             text-align: center;
             padding: 5px;
             font-size: 10px;
+
+            &:hover {
+                color: white;
+                background-color: #34475b;
+            }
         }
 
         i {
             font-size: 20px;
+
+            &:hover {
+                color: #3da698;
+            }
         }
 
         .sales {
             font-size: 20px;
             color: #3da698;
             font-weight: bolder;
+
+            &:hover {
+                color: #f3b329;
+            }
         }
 
         .dollar {

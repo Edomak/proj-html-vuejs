@@ -94,6 +94,11 @@ export default {
     color: white;
     border-radius: 5px;
     cursor: pointer;
+    border: none;
+
+    &:hover {
+      background-color: #f3b329;
+    }
  }
  .orange_button {
     background-color: #f3b329;
@@ -104,5 +109,10 @@ export default {
     text-decoration: none;
     border-radius: 5px;
     cursor: pointer;
+    border: none;
+
+    &:hover {
+      background-color: #3da698;
+    }
 }
 </style>

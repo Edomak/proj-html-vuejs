@@ -7,10 +7,10 @@
       </section>
       <section class="logos">
           <div class="container_60">
-            <img src="../assets/images/ebay-logotan-2x-200x66.png" alt="">
-            <img src="../assets/images/audible-logotan-2x-200x66.png" alt="">
-            <img src="../assets/images/bb-logotan-2x-200x66.png" alt="">
-            <img src="../assets/images/kindlefire-logotan-2x-200x66.png" alt="">
+            <img src="../assets/images/ebay-logotan-2x-200x66.png" alt="ebay logo">
+            <img src="../assets/images/audible-logotan-2x-200x66.png" alt="audible logo">
+            <img src="../assets/images/bb-logotan-2x-200x66.png" alt="bb logo">
+            <img src="../assets/images/kindlefire-logotan-2x-200x66.png" alt="kindlefire logo">
           </div>
       </section>
       <section class="audio clearfix">
@@ -31,7 +31,7 @@
       <section class="critics">
           <div class="container">
                 <div class="critics_top">
-                    <h2 class="font-title">What The Critics Say</h2>
+                    <h2>What The Critics Say</h2>
                     <p class="green">testimonials from around the world</p>
                     <button class="orange_button">Read All Testimonials</button>
                 </div>
@@ -45,7 +45,7 @@
                             <p>Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla quis lorem ut liber. Proin eget tortor risus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Donec rutrum congue leo eget malesuada.</p>
                             <div class="signature">
                                 <img src="../assets/images/nytimes-logo-white-xsmall.png" alt="">
-                                <p>Justine Kilpatrick,</p>
+                                <p>Justine Kilpatrick, </p>
                                 <span class="green">The New York Times</span>
                             </div>
                         </div>
@@ -56,16 +56,16 @@
                             <p>Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla quis lorem ut libero malesuada feug at.</p>
                         </div>
                         <div class="newspaper">
-                            <img src="../assets/images/theguardian-xsmall.png" alt="">
-                            <span class=""> Gerald Hendley, <span class="inline"> The Guardian</span></span>
+                            <img src="../assets/images/theguardian-xsmall.png" alt="the guardian logo">
+                            <span>Gerald Hendley, <span>The Guardian</span></span>
                         </div>
                         <div class="testimonials">
-                            <h3 class="font-title">A Unique View On The World</h3>
+                            <h3>A Unique View On The World</h3>
                             <p>Donec sollicitud molestie malesuada. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Nulla quis lorem ut libero malesuada feugiat. Vestibulum ac diam sit amet.</p>
                         </div>
                         <div class="newspaper">
-                            <img src="../assets/images/globe-xsmall.png" alt="">
-                            <span class=""> Mary Maxey, <span class="inline"> The Globe And Mail</span></span>
+                            <img src="../assets/images/globe-xsmall.png" alt="globe logo">
+                            <span>Mary Maxey, <span>The Globe And Mail</span></span>
                         </div>
                     </div>
                 </div> 
@@ -80,7 +80,7 @@
                 <div class="events_cards">
                     <div class="card">
                         <div class="event_img">
-                            <img src="../assets/images/event-05-400x240.jpg" alt="">
+                            <img src="../assets/images/event-05-400x240.jpg" alt="evento">
                         </div>
                         <div class="event_text">
                             <h2>Chicago Book Signin</h2>
@@ -90,7 +90,7 @@
                     </div>
                     <div class="card">
                         <div class="event_img">
-                            <img src="../assets/images/event-04-400x240.jpg" alt="">
+                            <img src="../assets/images/event-04-400x240.jpg" alt="evento">
                         </div>
                         <div class="event_text">
                             <h2>Meet & Greet With Amanda</h2>
@@ -100,7 +100,7 @@
                     </div>
                     <div class="card">
                         <div class="event_img">
-                            <img src="../assets/images/event-07-400x240.jpg" alt="">
+                            <img src="../assets/images/event-07-400x240.jpg" alt="evento">
                         </div>
                         <div class="event_text">
                             <h2>Open Book: Dialogues</h2>
@@ -113,24 +113,86 @@
       </section>
       <section class="news_letter">
           <div class="news_title">
-                <h2>Subscribe To My <br>Newsletter</h2>
+                <h2>Subscribe To My <br> Newsletter</h2>
                 <h3 class="yellow">be notified about book signing tour dates</h3>
           </div>
           <div class="news_input">
-              <input class="email" type="email" placeholder="Insert your email ...*">
-                <input class="subscribe green_button" type="submit" value="Subscribe">
+              <input class="email" type="email" placeholder="Insert your email ...">
+                <input class="subscribe green_button" type="submit">
           </div>
-           <p>Donec fringilla nunc eu turpis dignissim, at euismod sapien <br> tincidunt.</p>
+           <p>Donec fringilla nunc eu turpis dignissim, at euismod sapien <br>tincidunt.</p>
       </section>
       <section class="about">
-          <div class="container_60">
-              <div class="about_title"></div>
+          <div class="container">
+              <div class="about_title">
+                    <h2>Dig A Little Deeper Into Damon Vaughn</h2>
+                    <p class="green">find out more about the author himself</p>
+              </div>
               <div class="about_cards">
-                  <div class="about_card"></div>
-                  <div class="about_card"></div>
-                  <div class="about_card"></div>
+                  <div class="about_card left_card layover_about">
+                      <div class="about_text">
+                            <h2>About Me</h2>
+                            <hr>
+                            <p class="yellow">Vestibulum ante ipsum primis.</p>
+                      </div>
+                  </div>
+                  <div class="about_card middle_card layover_about">
+                      <div class="about_text">
+                            <h2>My Latest Book</h2>
+                            <hr>
+                            <p class="yellow">Vestibulum ante ipsum primis.</p>
+                      </div>
+                  </div>
+                  <div class="about_card right_card layover_about">
+                      <div class="about_text">
+                            <h2>Book Signing</h2>
+                            <hr>
+                            <p class="yellow">Vestibulum ante ipsum primis.</p>
+                        </div>
+                  </div>
               </div>
           </div>
+      </section>
+      <section class="articles">
+          <div class="container">
+                <div class="critics_top">
+                    <h2>Recent articles</h2>
+                    <p class="green">read the latest entries</p>
+                    <button class="orange_button">All articles</button>
+                </div>
+                <div class="main_articles clearfix">
+                    <div class="left_articles float-left">
+                        <div class="left_articles_img">
+                            <img src="../assets/images/20-Tips-600x353.jpg" alt="">
+                        </div>
+                        <div class="left_articles_text">
+                            <h3>20 Creativity Tips</h3>
+                            <p class="admin">By admin | October 24th, 2019 | Categories: Event, Tips & Tricks</p>
+                            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet.</p>
+                        </div>
+                    </div>
+                    <div class="right_articles float-left">
+                        <div class="box_article">
+                            <div class="box_article_img">
+                                <img src="../assets/images/thumb-13-2x-320x202.jpg" alt="">
+                            </div>
+                            <div class="box_article_text">
+                                <h3>What's On Your Booklist?</h3>
+                                <p>October 24th, 2019 | 0 Comments</p>
+                            </div>
+                        </div>
+                        <div class="box_article">
+                           <div class="box_article_img">
+                                <img src="../assets/images/thumb-08-2x-320x202.jpg" alt="">
+                            </div>
+                            <div class="box_article_text">
+                                <h3>Instanbul Travel Guide</h3>
+                                <p>October 24th, 2019 | 0 Comments</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
       </section>
   </main>
 </template>
@@ -183,6 +245,12 @@ export default {
             margin: 0 20px;
             vertical-align: middle;
             cursor: pointer;
+            border-radius: 20px;
+            padding: 10px;
+
+            &:hover {
+                background-color: #3da698;
+            }
         }
     }
 
@@ -379,6 +447,7 @@ export default {
             .card {
                 height: 400px;
                 background-color: white;
+                margin: 0 20px;
             }
         }
         .event_img img {
@@ -436,13 +505,18 @@ export default {
 
                 .email {
                     width: 15%;
-                    padding: 8px 50px;
+                    padding: 10px 50px;
                     margin-right: 10px;
+                    border-radius: 5px;
+
+                    &:hover {
+                        border: 2px solid #f3b329;
+                    }
                 }
 
                 .subscribe {
                     width: 10%;
-                    padding: 8px 0;
+                    padding: 10px 0;
                     margin-bottom: 25px;
                 }
             }
@@ -455,6 +529,167 @@ export default {
         }
 
         // About Section
+
+        .about {
+            padding: 40px 0;
+
+            .about_title {
+                text-align: center;
+
+                h2 {
+                    font-weight: bold;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    text-transform: uppercase;
+                    font-size: 12px;
+                }
+            }
+
+            .about_cards {
+
+                display: flex;
+
+                .about_card {
+                    position: relative;
+                    width: calc(100% / 3);
+                    height: 380px;
+                    margin: 20px 20px;
+                    border-radius: 0 0 35px 0;
+                    padding: 30px 45px;
+                }
+            }
+
+            .about_text {
+                position: absolute;
+                bottom: 30px;
+                text-align: center;
+            }
+
+            .left_card {
+                background-image: url(../assets/images/box-1.jpg);
+                background-size: cover;
+            }
+            .middle_card {
+                background-image: url(../assets/images/box-4.jpg);
+                background-size: cover;
+            }
+            .right_card {
+                background-image: url(../assets/images/box-3.jpg);
+                background-size: cover;
+            }
+
+            .layover_about {
+                width: 100%;
+                height: 100%;
+                opacity: 1;
+                border-radius: 0 0 35px 0;
+            }
+
+            .about_text {
+
+                text-align: center;
+                margin-left: 25px;
+
+                h2 {
+                    color: white;
+                    font-size: 16px;
+                    font-weight: 500;
+                    margin-bottom: 15px;
+                }
+
+                p {
+                    font-size: 14px;
+                    margin-top: 15px;
+                }
+
+                hr {
+                    position: relative;
+                    left: 78px;
+                    width: 60px;
+                    color: gray;
+                    opacity: .4;
+                }
+            }
+
+        }
+
+        // Articles Section
+
+        .articles {
+            background-color:#fef7e8;
+            padding: 50px 0;
+
+            h2 {
+                margin-bottom: 20px;
+            }
+
+            p {
+                text-transform: uppercase;
+                font-size: 13px;
+            }
+
+            .left_articles {
+                width: 60%;
+                // height: 480px;
+                background-color: white;
+                padding: 30px 30px;
+                margin-top: 20px;
+                text-align: center;
+
+                .left_articles_text {
+                    text-align: left;
+                    margin: 15px 20px;
+
+                    h3 {
+                        font-size: 18px;
+                        font-weight: lighter;
+                        margin-bottom: 5px;
+                    }
+
+                    .admin {
+                        font-size: 10px;
+                        text-transform: none;
+                        margin-bottom: 15px;
+                    }
+
+                    p {
+                        font-size: 12px;
+                        text-transform: none;
+                    }
+                }
+
+            }
+
+            .right_articles {
+
+                .box_article {
+                    width: 350px;
+                    height: 260px;
+                    background-color: white;
+                    margin-left: 110px;
+                    margin-top: 20px;
+                    padding: 30px 30px;
+
+                    .box_article_img img {
+                        width: 100%;
+                    }
+
+                    .box_article_text {
+                        h3 {
+                            font-size: 14px;
+                            font-weight: lighter;
+                            margin: 5px 0;
+                        }
+                        p {
+                            font-size: 8px;
+                        }
+                    }
+                }
+            }
+        }
+
 
 
 
