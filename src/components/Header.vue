@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="container">
+    <div class="container layover_general">
         <div class="header_top">
             <div class="logo">
                 <img src="../assets/images/author-logo-round-small.png" alt="">
@@ -55,7 +55,7 @@ export default {
     },
     data: function () {
         return {
-            activeLink: "Home"
+            activeLink: "Home",
         }
     },
     methods: {
@@ -99,6 +99,7 @@ export default {
 
     .menu ul {
         display: flex;
+        margin-right: 50px;
         list-style: none;
 
         li {
@@ -193,7 +194,8 @@ export default {
     .book_buttons {
         position: absolute;
         right: 30px;
-        bottom: 0;
+        top: 470px;
+        z-index: 9999;
 
         a {
             display: inline-block;
@@ -215,6 +217,7 @@ export default {
 
     .right_button {
         position: absolute;
+        top: 80px;
         right: 5px;
 
         a {

@@ -75,6 +75,20 @@ export default {
     float: right;
   }
 
+  .layover_general {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+  }
+
+  .green {
+    color: #3da698;
+  }
+  .yellow {
+    color:#f3b329;
+  }
+
  .green_button {
     background-color: #3da698;
     color: white;
