@@ -1,5 +1,6 @@
 <template>
     <footer>
+        <!-- Footer-top -->
         <div class="footer_col">
             <div class="container">
                 <div class="logo_footer col">
@@ -37,9 +38,12 @@
                 </div>
             </div>
         </div>
+        <!-- /Footer-top -->
+        <!-- Copyright -->
         <div class="footer_bottom">
-          <p>© Copyright 2012 - 2021 | Avada Theme by <strong>ThemeFusion</strong> | All Rights Reserved | Powered by <strong>WordPress</strong> </p>
+            <p>© Copyright 2012 - 2021 | Avada Theme by <strong>ThemeFusion</strong> | All Rights Reserved | Powered by <strong>WordPress</strong> </p>
         </div>
+        <!-- /Copyright -->
     </footer>
 </template>
 

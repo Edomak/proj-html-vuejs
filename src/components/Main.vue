@@ -1,19 +1,22 @@
 <template>
-  <main>
-      <section class="meet">
+    <main>
+        <!-- Meet Section -->
+        <section class="meet">
           <h2>More About Damon Vaughn</h2>
           <p>Damon Vaughn is a professor of psychology at the University of Toronto, a clinical psychologist and the author of the multi-million copy bestseller "The story of my life."</p>
           <button class="green_button">Meet The Author</button>
-      </section>
-      <section class="logos">
+        </section>
+        <section class="logos">
           <div class="container_60">
             <img src="../assets/images/ebay-logotan-2x-200x66.png" alt="ebay logo">
             <img src="../assets/images/audible-logotan-2x-200x66.png" alt="audible logo">
             <img src="../assets/images/bb-logotan-2x-200x66.png" alt="bb logo">
             <img src="../assets/images/kindlefire-logotan-2x-200x66.png" alt="kindlefire logo">
           </div>
-      </section>
-      <section class="audio clearfix">
+        </section>
+        <!-- /Meet Section -->
+        <!-- Audio Section -->
+        <section class="audio clearfix">
           <div class="container_60">
                 <div class="audio_img float-left">
                     <img src="../assets/images/audible-app-2x-400x418.png" alt="audible app">
@@ -27,8 +30,10 @@
                     <a href="#"><img src="../assets/images/kindle-logo-tall.png" alt=" logo kindle"></a>
                 </div>
             </div>
-      </section>
-      <section class="critics">
+        </section>
+        <!-- /Audio Section -->
+        <!-- Critics section -->
+        <section class="critics">
           <div class="container">
                 <div class="critics_top">
                     <h2>What The Critics Say</h2>
@@ -70,8 +75,10 @@
                     </div>
                 </div> 
           </div>
-      </section>
-      <section class="events">
+        </section>
+        <!-- /Critics section -->
+        <!-- Events Section -->
+        <section class="events">
             <div class="event_title">
                 <h2>Upcoming Events</h2>
                 <p>meet the author in person</p>
@@ -110,51 +117,55 @@
                     </div>
                 </div>
             </div>
-      </section>
-      <section class="news_letter">
-          <div class="news_title">
+        </section>
+        <!-- /Events Section -->
+        <!-- NewsLetter Section -->
+        <section class="news_letter">
+            <div class="news_title">
                 <h2>Subscribe To My <br> Newsletter</h2>
                 <h3 class="yellow">be notified about book signing tour dates</h3>
-          </div>
-          <div class="news_input">
+            </div>
+            <div class="news_input">
               <input class="email" type="email" placeholder="Insert your email ...">
                 <input class="subscribe green_button" type="submit">
-          </div>
+            </div>
            <p>Donec fringilla nunc eu turpis dignissim, at euismod sapien <br>tincidunt.</p>
-      </section>
-      <section class="about">
-          <div class="container">
-              <div class="about_title">
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="about_title">
                     <h2>Dig A Little Deeper Into Damon Vaughn</h2>
                     <p class="green">find out more about the author himself</p>
-              </div>
-              <div class="about_cards">
-                  <div class="about_card left_card layover_about">
-                      <div class="about_text">
+                </div>
+                <div class="about_cards">
+                    <div class="about_card left_card layover_about">
+                        <div class="about_text">
                             <h2>About Me</h2>
                             <hr>
                             <p class="yellow">Vestibulum ante ipsum primis.</p>
-                      </div>
-                  </div>
-                  <div class="about_card middle_card layover_about">
-                      <div class="about_text">
+                        </div>
+                    </div>
+                    <div class="about_card middle_card layover_about">
+                        <div class="about_text">
                             <h2>My Latest Book</h2>
                             <hr>
                             <p class="yellow">Vestibulum ante ipsum primis.</p>
-                      </div>
-                  </div>
-                  <div class="about_card right_card layover_about">
-                      <div class="about_text">
+                        </div>
+                    </div>
+                    <div class="about_card right_card layover_about">
+                        <div class="about_text">
                             <h2>Book Signing</h2>
                             <hr>
                             <p class="yellow">Vestibulum ante ipsum primis.</p>
                         </div>
-                  </div>
-              </div>
-          </div>
-      </section>
-      <section class="articles">
-          <div class="container">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /NewsLetter Section -->
+        <!-- Articles Section -->
+        <section class="articles">
+            <div class="container">
                 <div class="critics_top">
                     <h2>Recent articles</h2>
                     <p class="green">read the latest entries</p>
@@ -193,8 +204,9 @@
                     </div>
                 </div>
             </div>
-      </section>
-  </main>
+        </section>
+        <!-- /Articles Section -->
+    </main>
 </template>
 
 <script>
@@ -247,6 +259,7 @@ export default {
             cursor: pointer;
             border-radius: 20px;
             padding: 10px;
+            transition: 0.3s;
 
             &:hover {
                 background-color: #3da698;
@@ -516,6 +529,7 @@ export default {
                     padding: 10px 50px;
                     margin-right: 10px;
                     border-radius: 5px;
+                    transition: 0.3s;
 
                     &:hover {
                         border: 2px solid #f3b329;
@@ -567,6 +581,7 @@ export default {
                     border-radius: 0 0 35px 0;
                     padding: 30px 45px;
                     cursor: pointer;
+                    transition: 0.3s;
 
                     &:hover {
                         opacity: .7;
@@ -651,6 +666,7 @@ export default {
                 margin-top: 20px;
                 text-align: center;
                 cursor: pointer;
+                transition: 0.3s;
 
                 &:hover {
                     opacity: .7;
@@ -690,6 +706,7 @@ export default {
                     margin-top: 20px;
                     padding: 20px 30px;
                     cursor: pointer;
+                    transition: 0.3s;
 
                     &:hover {
                         opacity: .7;

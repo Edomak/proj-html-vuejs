@@ -119,11 +119,12 @@ export default {
     border-radius: 5px;
     cursor: pointer;
     border: none;
+    transition: 0.3s;
 
     &:hover {
       background-color: #f3b329;
     }
- }
+}
  .orange_button {
     background-color: #f3b329;
     padding: 10px 40px;
@@ -134,6 +135,7 @@ export default {
     border-radius: 5px;
     cursor: pointer;
     border: none;
+    transition: 0.3s;
 
     &:hover {
       background-color: #3da698;

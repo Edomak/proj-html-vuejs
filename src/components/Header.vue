@@ -8,8 +8,13 @@
             <div class="menu">
                 <ul class="right_nav">
                     <li 
-                    v-for="(link, index) in headerLinks" :key="index" :class="(link == activeLink)? 'active' : ''" @click.prevent="activePage(index)"><a href="#">{{ link }}</a></li>
-                    <li> <a href="#"><i :class="icon"></i></a></li>
+                    v-for="(link, index) in headerLinks" :key="index" :class="(link == activeLink)? 'active' : ''" @click.prevent="activePage(index)"><a href="#">{{ link }}</a>
+                    </li>
+                    <li 
+                    :class="(link == activeLink)? 'active' : ''" 
+                    @click.prevent="activePage(index)">
+                    <a href="#"><i :class="icon"></i></a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -246,6 +251,7 @@ export default {
             text-align: center;
             padding: 5px;
             font-size: 10px;
+            transition: 0.3s;
 
             &:hover {
                 color: white;
@@ -255,6 +261,7 @@ export default {
 
         i {
             font-size: 20px;
+            transition: 0.3s;
 
             &:hover {
                 color: #3da698;
