@@ -1,8 +1,12 @@
 <template>
   <div id="app">
-    <Header :headerLinks="headerLinks" :icon="icon" />
+    <Header 
+    :headerLinks="headerLinks" 
+    :icon="icon" />
     <Main />
-    <Footer />
+    <Footer 
+    :footerLinks="footerLinks" :footerContacts="footerContacts"
+    :footerIcons="footerIcons" />
   </div>
 </template>
 
@@ -31,6 +35,26 @@ export default {
         "Contact Me"
       ],
       icon: "fas fa-shopping-cart",
+      footerLinks: [
+        "Latest Books",
+        "Upcoming Events",
+        "Recent Articles",
+        "Business Enquiries",
+        "Visit My Foundation"
+      ],
+      footerContacts: [
+        "63 E. Studebaker Street Bolingbrook, IL 60440",
+        "Phone: (800) 000-0000",
+        "Mobile: (800) 000-0000",
+        "Email: info@your-company.com"
+      ],
+      footerIcons: [
+        "fab fa-facebook-f",
+        "fab fa-twitter",
+        "fab fa-instagram",
+        "fab fa-linkedin-in",
+        "fab fa-youtube"
+      ],
     }
   }
 }

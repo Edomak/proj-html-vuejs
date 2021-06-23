@@ -16,7 +16,7 @@
       <section class="audio clearfix">
           <div class="container_60">
                 <div class="audio_img float-left">
-                    <img src="../assets/images/audible-app-2x-400x418.png" alt="">
+                    <img src="../assets/images/audible-app-2x-400x418.png" alt="audible app">
                 </div>
                 <div class="audio_text float-left">
                     <h3>New Audiobook</h3>
@@ -44,7 +44,7 @@
                             <p>Donec fringilla nunc eu turpisa dignissim, at auismod sapien tincidunt. Maecenas eleifend congue cursus. In vitae enim quis sem pharetra. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
                             <p>Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla quis lorem ut liber. Proin eget tortor risus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Donec rutrum congue leo eget malesuada.</p>
                             <div class="signature">
-                                <img src="../assets/images/nytimes-logo-white-xsmall.png" alt="">
+                                <img src="../assets/images/nytimes-logo-white-xsmall.png" alt="NY times logo">
                                 <p>Justine Kilpatrick, </p>
                                 <span class="green">The New York Times</span>
                             </div>
@@ -80,7 +80,7 @@
                 <div class="events_cards">
                     <div class="card">
                         <div class="event_img">
-                            <img src="../assets/images/event-05-400x240.jpg" alt="evento">
+                            <img src="../assets/images/event-05-400x240.jpg" alt="evento img">
                         </div>
                         <div class="event_text">
                             <h2>Chicago Book Signin</h2>
@@ -90,7 +90,7 @@
                     </div>
                     <div class="card">
                         <div class="event_img">
-                            <img src="../assets/images/event-04-400x240.jpg" alt="evento">
+                            <img src="../assets/images/event-04-400x240.jpg" alt="evento img">
                         </div>
                         <div class="event_text">
                             <h2>Meet & Greet With Amanda</h2>
@@ -100,7 +100,7 @@
                     </div>
                     <div class="card">
                         <div class="event_img">
-                            <img src="../assets/images/event-07-400x240.jpg" alt="evento">
+                            <img src="../assets/images/event-07-400x240.jpg" alt="evento img">
                         </div>
                         <div class="event_text">
                             <h2>Open Book: Dialogues</h2>
@@ -367,6 +367,7 @@ export default {
                 color: white;
                 text-transform: none;
                 margin: 30px 0;
+                line-height: 20px;
             }
 
             .signature {
@@ -398,6 +399,7 @@ export default {
                 font-size: 12px;
                 color: black;
                 text-transform: none;
+                line-height: 20px;
             }
         }
 
@@ -448,6 +450,11 @@ export default {
                 height: 400px;
                 background-color: white;
                 margin: 0 20px;
+                cursor: pointer;
+
+                &:hover {
+                    opacity: .7;
+                }
             }
         }
         .event_img img {
@@ -490,8 +497,9 @@ export default {
 
                 h2 {
                     color: white;
-                    font-weight: 300;
+                    font-weight: 550;
                     margin-bottom: 25px;
+                    line-height: 35px;
                 }
                 h3 {
                     text-transform: uppercase;
@@ -558,6 +566,11 @@ export default {
                     margin: 20px 20px;
                     border-radius: 0 0 35px 0;
                     padding: 30px 45px;
+                    cursor: pointer;
+
+                    &:hover {
+                        opacity: .7;
+                    }
                 }
             }
 
@@ -637,6 +650,11 @@ export default {
                 padding: 30px 30px;
                 margin-top: 20px;
                 text-align: center;
+                cursor: pointer;
+
+                &:hover {
+                    opacity: .7;
+                }
 
                 .left_articles_text {
                     text-align: left;
@@ -670,7 +688,12 @@ export default {
                     background-color: white;
                     margin-left: 110px;
                     margin-top: 20px;
-                    padding: 30px 30px;
+                    padding: 20px 30px;
+                    cursor: pointer;
+
+                    &:hover {
+                        opacity: .7;
+                    }
 
                     .box_article_img img {
                         width: 100%;
